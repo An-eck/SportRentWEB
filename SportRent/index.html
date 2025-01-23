@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оренда спортивного інвентаря</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Оренда спортивного інвентаря</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalog">Каталог</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="catalog">
+        <h2>Каталог</h2>
+        <div class="item">
+            <h3>Велосипед</h3>
+            <p>Ціна: 150 грн/день</p>
+            <button onclick="rentItem('Велосипед')">Орендувати</button>
+        </div>
+        <div class="item">
+            <h3>Ракетка для тенісу</h3>
+            <p>Ціна: 50 грн/день</p>
+            <button onclick="rentItem('Ракетка для тенісу')">Орендувати</button>
+        </div>
+        <div class="item">
+            <h3>Футбольний м'яч</h3>
+            <p>Ціна: 30 грн/день</p>
+            <button onclick="rentItem('Футбольний м'яч')">Орендувати</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Про нас</h2>
+        <p> Якісний спортивний інвентар для оренди за доступними цінами.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Контакти</h2>
+        <p>Email: sportrent@gmail.com</p>
+        <p>Телефон: +380 77 777 7777</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Оренда спортивного інвентаря.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
